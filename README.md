@@ -41,36 +41,6 @@ bounds are set to (0, upper_bound) for each asset
 the sum of weights must equal 1
 So each weight must satisfy:
 
-𝑤
-𝑖
-≥
-0
-w 
-i
-​
- ≥0
-𝑤
-𝑖
-≤
-0.30
-w 
-i
-​
- ≤0.30
-∑
-𝑖
-𝑤
-𝑖
-=
-1
-∑ 
-i
-​
- w 
-i
-​
- =1
-This is why the validation check exists:
 
 if there are too few assets, a 30% cap cannot sum to 100%
 for example, 3 assets at 30% each only totals 90%
